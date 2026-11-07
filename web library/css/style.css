@@ -1,0 +1,284 @@
+@font-face {
+  font-family:"Vazirmatn";
+  src: url("../fonts/webfonts/Vazirmatn[wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family:"Vazirmatn";
+  margin: 0;
+  background: #f6efe3;
+  color: #292929;
+  line-height: 1.8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 20px 0 10px;
+  font-size: 22px;
+  text-indent:2%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  height: 70px;
+  padding: 0 35px;
+  background: #20283a;
+  color: white;
+}
+
+.logo {
+  margin-left: auto;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.logo b, .hero h1 b, .page-header h1 b {
+  color: #f4b400;
+}
+
+.navbar a {
+  padding: 10px 5px;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: #f4b400;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 18px;
+  background: #20283a;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-gold {
+  background: #f4b400;
+  color: #222;
+}
+
+.hero{
+  background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('../img/img1.jpg') center / cover no-repeat;
+  color: white;
+  padding: 20px 6%;
+  min-height: 300px;
+}
+
+.hero h1, .page-header h1 {
+  font-size: 36px;
+}
+
+.hero p, .page-header p {
+  margin: 8px 0 20px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.category-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.category-links a, .book-tabs a {
+  padding: 8px 18px;
+  background: white;
+  border-radius: 5px;
+}
+
+.shelf {
+  margin: 15px 4%;
+  padding: 15px;
+  background: #a8713a;
+}
+
+.shelf-books {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background: #e6cfa6;
+}
+
+.book {
+  padding: 18px 10px;
+  text-align: center;
+  color: #292929;
+}
+
+.book-cover {
+  width: 150px;
+  height: 220px;
+  margin: 0 auto 10px;
+  padding: 10px;
+  background: #777;
+  color: white;
+  border: 1px solid #555;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-icon {
+  font-size: 28px;
+}
+
+.book-caption {
+  text-align: center;
+}
+
+.book-caption strong, .book-caption span {
+  display: block;
+}
+
+.book-caption span {
+  font-size: 12px;
+}
+
+.section {
+  padding: 15px 4% 40px;
+}
+
+.card, .category-card, details {
+  padding: 18px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat b, .category-card b {
+  display: block;
+  font-size: 30px;
+}
+
+.category-cards {
+  padding: 15px 4%;
+}
+
+.category-card {
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-icon {
+  font-size: 28px;
+}
+
+.contact-card strong, .contact-card span {
+  display: block;
+}
+
+.contact-card span {
+  direction: ltr;
+  text-align: right;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details {
+  margin-bottom: 10px;
+}
+
+.book-banner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 38px 6%;
+  background: #555;
+  color: white;
+}
+
+.book-info {
+  flex: 1;
+}
+
+.book-info h1 {
+  font-size: 36px;
+}
+
+.book-meta, .book-tabs, .book-nav {
+  display: flex;
+  align-items:center;
+  gap: 10px;
+  padding: 15px 4%;
+}
+
+.book-meta span, .tag {
+  padding: 4px 10px;
+  background: #eee;
+  color: #292929;
+}
+
+.rating {
+  color: #f4b400;
+}
+
+.book-section {
+  padding: 15px 4%;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.characters .card b, .characters .card span {
+  display: block;
+}
+
+.world-card {
+  max-width: 800px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 4px;
+}
+
+.book-nav {
+  justify-content: space-between;
+  padding: 25px 4%;
+}
+
+.space-bottom {
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 20px;
+  background: #20283a;
+  color: white;
+  text-align: center;
+}
