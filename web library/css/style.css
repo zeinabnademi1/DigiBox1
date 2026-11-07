@@ -282,3 +282,9 @@ footer {
   color: white;
   text-align: center;
 }
+
+.small-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
